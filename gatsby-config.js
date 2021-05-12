@@ -15,8 +15,7 @@ const settings = require("./src/util/site.json")
 module.exports = {
   flags: { PRESERVE_WEBPACK_CACHE: true,
            PRESERVE_FILE_DOWNLOAD_CACHE: true,
-           PARALLEL_SOURCING:true, 
-           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true, },
+           PARALLEL_SOURCING:true },
   siteMetadata: settings.meta,
   plugins: [
     {
